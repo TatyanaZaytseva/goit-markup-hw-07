@@ -5,14 +5,14 @@
 .clients__title {
    margin-bottom: 50px;
 }
-.clients__logo{
+.clients{
     display: flex;
     justify-content: center;
 }
-.logo-item:not(:last-child){
+.clients__item:not(:last-child){
     margin-right: 30px;
 }
-.logo-item__link{
+.clients__link{
   display:flex;
   width: 170px;
   height: 92px;
@@ -27,12 +27,12 @@
     &:focus{
         border: 1px solid var(--accent-color);
     }
-    &:hover .logo-item__icons,
-    &:focus .logo-item__icons{
+    &:hover .clients__icons,
+    &:focus .clients__icons{
     fill: var(--accent-color);
     }
 }
-.logo-item__icons{
+.clients__icons{
  fill:  #AFB1B8;
 transition: fill 250ms var(--timing-funktion);
 }

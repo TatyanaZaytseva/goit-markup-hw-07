@@ -1,8 +1,12 @@
 
-.activity{
+.section--no-padding-top{
     padding-top: 0;
   }
 
+.activity{
+    display: flex;
+}
+ 
 .activity__item {
     position: relative;
     display: flex;
@@ -15,10 +19,7 @@
   .activity__title{
      margin-bottom: 50px;
   }
-  .activity__images {
-      display: flex;
-  }
-    
+   
   .activity__image-overlay {
       position: absolute;
       display:flex;

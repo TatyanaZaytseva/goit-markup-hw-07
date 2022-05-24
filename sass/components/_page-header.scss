@@ -53,21 +53,24 @@
     }
 }
 
-.site-nav__link.current{
+.site-nav__link--current{
     color: var(--accent-color);
     position: relative;
-}
-.current::after{
-content:'';
-position: absolute;
-display: block;
-width: 100%;
-height: 4px;
-background-color: var(--accent-color);
-left: 0;
-bottom: -1px;
-border-radius: 2px ;
-}
+
+    &::after{
+        content:'';
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: var(--accent-color);
+        left: 0;
+        bottom: -1px;
+        border-radius: 2px ;
+        }
+
+ }
+
 
 
 .contact-nav{
